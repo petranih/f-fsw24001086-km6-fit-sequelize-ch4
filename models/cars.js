@@ -15,7 +15,7 @@ module.exports = (sequelize, DataTypes) => {
   }
   Cars.init({
     name: DataTypes.STRING,
-    model: DataTypes.STRING,
+    sewa: DataTypes.INTEGER,
     photo: { 
      type: DataTypes.TEXT,
      defaultValue: "user-deafult.jpg",

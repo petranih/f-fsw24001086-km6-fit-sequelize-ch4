@@ -13,8 +13,9 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false, 
       },
-      model: {
-        type: Sequelize.STRING
+      sewa: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
       },
       photo: {
         type: Sequelize.TEXT

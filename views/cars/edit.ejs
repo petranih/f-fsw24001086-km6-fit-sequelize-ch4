@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>Edit Data Car</h3>
+    <form action="/cars/admin/edit/<%= car.id %>" method="POST">
+      <label for="">Name</label>
+      <input
+        type="name"
+        name="name"
+        placeholder="masukkan name"
+        value="<%= car.name %>"
+      />
+      <br />
+      <label for="">Sewa</label>
+      <input
+        type="sewa"
+        name="sewa"
+        placeholder="masukkan sewa"
+        value="<%= car.sewa %>"
+      />
+      <br />
+      <button>Edit Data</button>
+    </form>
+  </body>
+</html>
