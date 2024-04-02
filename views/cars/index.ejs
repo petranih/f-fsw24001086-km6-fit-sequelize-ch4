@@ -16,6 +16,7 @@
 <body></body>
 
 </html>
+<!-- navbar -->
 <section class="side__nav">
     <div class="d-flex flex-row">
         <div class="side__bar">
@@ -116,6 +117,7 @@
                             </div>
 
                         </nav>
+                        <!-- sidebar -->
                         <div class="d-flex justify-content-between">
                             <h5>
                                 List Cars
@@ -131,7 +133,7 @@
                             <a href="#" class="btn button__secondary me-3">Medium</a>
                             <a href="#" class="btn button__secondary me-3">Large</a>
                         </div>
-
+                        <!-- body -->
                         <div class="row mt-4">
                             <% car.map((cars)=> {%>
                                 <div class="col-lg-4 my-2">
@@ -140,9 +142,9 @@
                                             class="card-img-top text-center"
                                             style="aspect-ratio: 2/1; object-fit: contain;">
                                         <div class="card-body">
-                                            <h5 class="card- title h5__tipe">
-                                                <%= cars.name %> / <%= cars.category %>
-                                            </h5>
+                                            <h4 class="card- title h4__tipe">
+                                                <%= cars.name %>
+                                            </h4>
                                             <h5 class="card-title h5__hari">Rp
                                                 <%= cars.sewa %> / hari
                                             </h5>

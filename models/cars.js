@@ -18,7 +18,7 @@ module.exports = (sequelize, DataTypes) => {
     sewa: DataTypes.INTEGER,
     photo: { 
      type: DataTypes.TEXT,
-     defaultValue: "user-deafult.jpg",
+     defaultValue: "user-default.jpg",
     },
   }, {
     sequelize,
